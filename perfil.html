@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFIL</title>
+    <link rel="icon" href="LogoPersonal.png" type="image/x-icon">
+    <link rel="stylesheet" href="perfil.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <section class="barra-navegacion">
+            <header>
+                <div class="head">
+                    <nav class="navbar">
+                        <a href="index.html">Inicio</a>
+                        <div class="dropdown">
+                            <a href="perfil.html">Perfil profesional</a>
+                            <ul class="boxlist">
+                                <li><a href="#linkCompetencia">Competencias</a></li>
+                                <li><a href="#linkFormacion">Formación Académica</a></li>
+                                <li><a href="#linkRoles">Roles de competencia</a></li>
+                                <li><a href="#linkExperiencia">Experiencia Laboral</a></li>
+                        </div>
+                        <a href="proyectos.html">Proyectos</a>
+                        <a href="acercademi.html">Acerca de mi</a>
+                    </nav>
+                </div>
+            </header>
+        </section> 
+
+        <section class="content-profile">
+                <div class="imgprofile">
+                    <img src="Fotopersonal.png" alt="imgproyects">
+                </div>
+
+                <div class="Descripcion-rol">
+                    <p>David Jiménez Sánchez</p>
+                    <p>Profesional bilingüe en asistencia administrativa con conocimientos y experiencia en atención a clientes internos y externos,
+                    soporte al área operativa, coordinación logística, apoyo, control y seguimiento de procesos administrativos. Tengo conocimientos 
+                    técnicos en TI para la gestión de redes, mantenimiento de computadores, análisis de datos y big data, gestión de bases de datos y 
+                    programación de software. Me caracterizo por mi compromiso, integridad, organización, creatividad, trabajo en equipo y un fuerte 
+                    enfoque en el aprendizaje continuo.
+                    </p>
+                </div>
+        </section>
+
+        <section class="section-competencias">
+            <div class="expandable-header" onclick="toggleContent('expandable-content', 'expandable-arrow')" title="Clic aquí" id="linkCompetencia">
+                <h3>Ver Competencias <span id="expandable-arrow" class="arrow">&#9654;</span></h3>
+            </div>
+            <div class="expandable-content" id="expandable-content">
+                <div class="matrix">
+                    <div class="matrix-item">
+                        <h2>-- COMPETENCIAS FUERTES --</h2>
+                        <ul>
+                            <li><h4 class="title">Analítica</h4>Tengo la capacidad de interpretar datos, identificar patrones y tomar decisiones informadas.</li>
+                            <br>
+                            <li><h4 class="title">Gestión de proyectos</h4>Me destaco en la organización y el liderazgo para planificar, ejecutar y supervisar proyectos de manera eficiente. Metodología (Scrum)</li>
+                            <br>
+                            <li><h4 class="title">Técnicas</h4>Poseo conocimiento en herramientas y tecnologías específicas en las diferentes áreas de formación que conozco.</li>
+                            <br>
+                            <li><h4 class="title">Idioma</h4>Cuento con el dominio de un idioma adicional, lo que me permite comunicarme de manera efectiva en contextos internacionales.</li>
+                            <br>
+                            <li><h4 class="title">Certificaciones</h4>Tengo certificaciones adicionales que validan mis habilidades y conocimientos en áreas técnicas y profesionales.</li>
+                        </ul>
+                    </div>
+                    <div class="matrix-item">
+                        <h2>-- COMPETENCIAS BLANDAS --</h2>
+                        <ul>
+                            <li><h4 class="title">Trabajo en equipo</h4>Colaboro activamente con otros para alcanzar objetivos comunes de manera eficiente.</li>
+                            <br>
+                            <li><h4 class="title">Comunicación efectiva</h4>Expreso mis ideas con claridad y escucho de forma comprensiva para facilitar el entendimiento mutuo.</li>
+                            <br>
+                            <li><h4 class="title">Adaptabilidad</h4>Me ajusto rápidamente a cambios y nuevos entornos, manteniendo siempre la productividad.</li>
+                            <br>
+                            <li><h4 class="title">Gestión de tiempo</h4>Organizo y priorizo mis tareas para cumplir con los plazos y objetivos de manera eficiente.</li>
+                            <br>
+                            <li><h4 class="title">Creatividad</h4>Genero ideas originales y encuentro soluciones innovadoras para resolver problemas o mejorar procesos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-formacion">
+            <div class="expandable-header" onclick="toggleContent('expandable-content-formacion', 'expandable-arrow-formacion')" title="Clic aquí" id="linkFormacion">
+                <h3>Ver Formación Académica <span id="expandable-arrow-formacion" class="arrow">&#9654;</span></h3>
+            </div>
+            <div class="expandable-content" id="expandable-content-formacion">
+                <div class="matrix">
+                    <div class="matrix-item">
+                        <h2>-- EDUCACIÓN FORMAL --</h2>
+                        <ul>
+                            <li><h4 class="title">Profesional</h4>-Desarrollador de software // en curso</li>
+                            <br>
+                            <li><h4 class="title">Tecnológica</h4>-Análisis de sistemas de información // culminado 2024<br>-Gestión administrativa // culminado 2017</li>
+                            <br>
+                            <li><h4 class="title">Técnica</h4>-Gestión de redes y mantenimiento de computadores // culminado 2024</li>
+                            <br>
+                            <li><h4 class="title">Media</h4>-Bachiller académico // culminado 2014</li>
+                        </ul>
+                    </div>
+                    <div class="matrix-item">
+                        <h2>-- EDUCACIÓN CONTINUA --</h2>
+                        <ul>
+                            <li><h4 class="title">Cursos en línea</h4>Tengo certificaciones en desarrollo web, gestión de proyectos, análisis de datos, inteligencia de negocio, estadística y diseño.</li>
+                            <br>
+                            <li><h4 class="title">Segunda lengua</h4>He aprendido el idioma inglés en una academia, alcanzando un nivel intermedio-avanzado (B2+).</li>
+                        </ul>                        
+                    </div>
+                </div>
+                <h6>Documentos a petición</h6>
+            </div>
+        </section>       
+
+        <section class="section-experiencia">
+            <div class="expandable-header" onclick="toggleContent('expandable-content-experiencia', 'expandable-arrow-experiencia')" title="Clic aquí" id="linkExperiencia">
+                <h3>Ver Experiencia Laboral <span id="expandable-arrow-experiencia" class="arrow">&#9654;</span></h3>
+            </div>
+            <div class="expandable-content" id="expandable-content-experiencia">
+                <div class="matrix">
+                    <div class="matrix-item">
+                        <h2>-- EXPERIENCIA PROFESIONAL --</h2>
+                        <ul>
+                            <li><h4 class="title">Analista de datos Nacional</h4>-Grupo Recordar, Parques y funerarias // junio 2023 - septiembre 2024</li>
+                            <br>
+                            <li><h4 class="title">Analista de datos, Reporting controler</h4>-Almacontact SAS // febrero 2022 - mayo 2023</li>
+                            <br>
+                            <li><h4 class="title">Analista de datos, Reporting</h4>-Digital Inspire // septiembre 2021 - enero 2022</li>
+                            <br>
+                            <li><h4 class="title">Asistente Administrativo, BackOffice</h4>-American Group // agosto 2021 - septiembre 2021</li>
+                            <br>
+                            <li><h4 class="title">Asistente Administrativo, BackOffice</h4>-Latcom SAS // Abril 2018 - Febrero 2021</li>
+                        </ul>
+                    </div>
+                    <div class="matrix-item">
+                        <h2>-- FUNCIONES GENERALES --</h2>
+                        <ul>
+                            <li><h4 class="title">Reportería</h4>Diseño, generación y distribución de reportes dinámicos que permiten un análisis profundo de las operaciones y resultados del negocio.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Automatización</h4>Implementación de procesos automáticos que optimizan la recolección, procesamiento y análisis de datos, reduciendo errores humanos y tiempos de ejecución.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Integración ETL</h4>Gestión de la extracción, transformación y carga de datos desde múltiples sistemas hacia un Data Warehouse centralizado, garantizando consistencia y accesibilidad.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Modelado de Datos</h4>Diseño y optimización de modelos de datos que facilitan el análisis eficiente y soportan la toma de decisiones estratégicas.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Análisis de KPI</h4>Identificación, cálculo y monitoreo de indicadores clave de rendimiento que reflejan el cumplimiento de objetivos organizacionales.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Visualización de Datos</h4>Desarrollo de dashboards interactivos y gráficos claros que transforman datos complejos en información comprensible y accionable.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Gestión de Datos</h4>Supervisión de la integridad, consistencia, seguridad y calidad de los datos empresariales, asegurando su disponibilidad para los procesos críticos.</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><h4 class="title">Documentación Técnica</h4>Elaboración de manuales, guías y documentación detallada que describen el uso, mantenimiento y desarrollo de soluciones BI y procesos analíticos.</li>
+                        </ul>
+                    </div>
+                                  
+                </div>
+                <h6>Referencias a petición</h6>
+            </div>
+        </section>
+        
+        <section class="expandable-sectionf">
+            <div class="expandable-headerf" id="linkRoles">
+                <h3>ROLES DE COMPETENCIA - Clic en cada una</h3>
+            </div>
+            <div>
+                <div class="matrixf">
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linkdata'">
+                        Analista de datos // Desarrollador BI
+                    </div>
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linkdevps'">
+                        Desarrollador de software // Fullstack
+                    </div>
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linkdesigner'">
+                        Diseñador // Freelance
+                    </div>
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linksupportnet'">
+                        Técnico y gestor de redes
+                    </div>
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linksupportpcs'">
+                        Técnico y gestor de computadores
+                    </div>
+                    <div class="matrix-itemf" title="Clic aquí" onclick="window.location.href='#linkdataassist'">
+                        Asistente administrativo // Contable
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="content-data" id="linkdata">
+            <div class="data">
+                <h2 class="title-education">Analista de datos // Desarrollador BI</h2>
+                <p>Como analista de datos, tengo habilidades en el manejo y gestión de Big Data utilizando herramientas y procesos ETL,
+                lo que permite una visualización e interpretación más clara de la información. Tengo experiencia con herramientas como
+                SQL Workbench, SQL Server, Python (Pandas, NumPy, Seaborn), KNIME, Excel, Power BI, PostgreSQL y Microsoft Access.
+                </p>
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class="titulocajas">Workbench</h1>
+                        <img src="mysql-workbench-alternatives.png" alt="Workbench" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Access</h1> 
+                        <img src="Access.jpg" alt="access" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">Python</h1> 
+                        <img src="Python.jpeg" alt="Python" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">Knime</h1> 
+                        <img src="Knime.jpeg" alt="Knime" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">Pentaho</h1> 
+                        <img src="Pentaho.jpeg" alt="PowerBI" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">Excel</h1> 
+                        <img src="Excel.png" alt="Excel" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">PowerBI</h1> 
+                        <img src="PowerBI.jpeg" alt="PowerBI" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-devop" id="linkdevps">
+            <div class="devop">
+                <h2 class="title-education">Desarrollador de software // Fullstack</h2>
+                <p>Como desarrollador Fullstack, me especializo en la creación de aplicaciones completas, tanto en el frontend como en el backend. 
+                Trabajo con tecnologías como Python, JavaScript, React, HTML y CSS, que me permiten desarrollar interfaces de usuario interactivas 
+                y dinámicas, así como construir la lógica y la base de datos que soportan dichas aplicaciones. Además, tengo conocimiento en la 
+                integración de bases de datos como PostgreSQL, lo que me permite desarrollar soluciones completas y eficientes. Mi enfoque está en 
+                la mejora continua, creando productos de software robustos y escalables a medida que aprendo más en mi carrera.</p>
+                </p>
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class ="titulocajas">React</h1> 
+                        <img src="React.png" alt="C++" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">JavaScript</h1>
+                        <img src="Javascript.jpeg" alt="JavaScript" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">HTML</h1>
+                        <img src="Html.png" alt="HTML" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">CSS</h1> 
+                        <img src="Css.png" alt="CSS" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class="titulocajas">PostgreSQL</h1> 
+                        <img src="PostgreSQL.jpeg" alt="PostgreSQL" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-designer" id="linkdesigner">
+            <div class="designer">
+                <h2 class="title-education">Diseñador // Freelance</h2>
+                <p>Como diseñador freelance, tengo la capacidad de crear y modificar imágenes desde cero, así como diseñar plantillas UI/UX para proyectos de software o publicidad, utilizando diversas herramientas profesionales. Además, cuento con experiencia en la edición de videos y la aplicación de efectos especiales para enriquecer visualmente los proyectos. Aunque trabajo en proyectos personales, también integro mis conocimientos y habilidades de diseño en otras áreas de mi formación, asegurando soluciones creativas y funcionales.</p>
+
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class ="titulocajas">Figma</h1>
+                        <img src="Figma.png" alt="Figma" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Adobe Photoshop</h1>
+                        <img src="Adobe Photoshop.jpeg" alt="Adobe" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Adobe premier</h1> 
+                        <img src="premier.jpeg" alt="premier" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Shotcut</h1> 
+                        <img src="Shotcut.jpeg" alt="Shotcut" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Inskcape</h1> 
+                        <img src="Inskcape.jpeg" alt="Inskcape" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Canva</h1> 
+                        <img src="Canva.jpeg" alt="Canva" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>
+        
+        <section class="content-technet" id="linksupportnet">
+            <div class="technet">
+                <h2 class="title-education">Técnico y gestor de redes</h2>
+                <p>Soy técnico en gestión de redes y estoy adquiriendo experiencia en la optimización y mantenimiento de infraestructuras
+                de red para asegurar un rendimiento eficiente y seguro. Tengo habilidades en configuración y administración de redes, así 
+                como en la resolución de problemas técnicos. He trabajado con herramientas y tecnologías clave como Cisco Packet Tracer, Juniper,
+                Wireshark y Nagios.
+                </p>
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class ="titulocajas">Cisco Packet Tracer</h1>
+                        <img src="Tracer.jpeg" alt="Packet" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Juniper</h1>
+                        <img src="Juniper.jpeg" alt="Juniper" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Wireshark</h1> 
+                        <img src="Wireshark.jpeg" alt="Wireshark" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Nagios</h1> 
+                        <img src="NAgios.jpeg" alt="Nagios" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>
+        
+        <section class="content-technetcomputer"id="linksupportpcs">
+            <div class="technetcomputer">
+                <h2 class="title-education">Técnico y gestor de computadores</h2>
+                <p>Soy técnico en gestión de redes y estoy adquiriendo experiencia en la optimización y mantenimiento de infraestructuras
+                de red para asegurar un rendimiento eficiente y seguro. Tengo experiencia en configuración, administración y resolución de
+                problemas de redes. He trabajado con herramientas y tecnologías clave como Cisco Packet Tracer, Juniper, Wireshark y Nagios.
+                </p>
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class ="titulocajas">Hiren’s Boot</h1>
+                        <img src="Hirens.jpeg" alt="Hiren’s Boot" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">CCleaner</h1>
+                        <img src="Cleaner.png" alt="CCleaner" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">CrystalDiskInfo</h1> 
+                        <img src="Crystal.png" alt="CrystalDiskInfo" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>
+        
+        <section class="content-assistant" id="linkdataassist">
+            <div class="assistant">
+                <h2 class="title-education">Asistente administrativo - Contable</h2>
+                <p>He auditado y controlado procesos operativos clave, incluyendo servicio al cliente, modificaciones de facturas,
+                visitas y ventas. Aseguro el cumplimiento de normativas internas y externas, adicional genero informes detallados para evaluación 
+                y mejora continua.
+                </p>
+            
+                <div class="Cajas">
+                    <div class="box1">
+                        <h1 class ="titulocajas">Word</h1>
+                        <img src="Word.jpg" alt="Word" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">PowerPoint</h1>
+                        <img src="PowerPoint.jpg" alt="PowerPoint" class="img-logo">
+                    </div>
+                    <div class="box1">
+                        <h1 class ="titulocajas">Microsoft 365</h1> 
+                        <img src="Microsoft365.jpg" alt="365" class="img-logo">
+                    </div>
+                </div>
+                <a href="proyectos.html#seccion-proyectos">
+                    <h3>Ver proyectos</h3>
+                </a>
+            </div>
+        </section>       
+    </main>
+
+    <footer>
+            <h4>Contacto: +57 320-401-7897 - Correo: dsjs2307@gmail.com - davidjimenez2307@gmail.com</h4>
+            <h4>Visítame en <a href="https://www.linkedin.com/in/david-jimenez-914003288/"  rel="noopener noreferrer">LinkedIn</a></h4>
+            <h5>&copy;Todos los derechos reservados // 2024 // David Jiménez Sánchez</h5>
+    </footer>
+</body>
+
+</html>
